@@ -1,0 +1,74 @@
+
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 575px;
+    height: 385px;
+    gap: 100px;   
+}
+
+.container > div {
+    text-align: center;
+}
+
+.scores > h3 {
+    margin: 0 0 21px 0;
+}
+
+.scores > .points-display {
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    border-radius: 5px;
+    margin: 0 0 26px 0;
+}
+
+.add-points-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-points-btns button {
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 42px;
+    color: #9AABD8;
+}
+
+/* TYPOGRAPHY */
+
+.scores > h3 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #EEEEEE;
+}
+
+.points-display, 
+.add-points-btns > button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.points-display {
+    font-size: 90px;
+    line-height: 130px;
+    color: #F94F6D;
+}
